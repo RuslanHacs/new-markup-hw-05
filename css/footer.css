@@ -1,0 +1,185 @@
+/*.footer-bg {
+    background: #2e2f42;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.wrap-logo {
+    margin-right: 120px;
+}
+
+.logo-dw {
+    color: #f4f4fd;
+}
+
+.footer-txt {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #f4f4fd;
+    padding-top: 16px;
+    width: 264px;
+    max-width: 264px;
+}
+
+.wrap-social {
+    display: inline-block;
+
+
+}
+
+.caption {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #ffffff;
+    margin-bottom: 16px;
+
+
+
+}
+
+.foot-social-list {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: row;
+    gap: 16px;
+    width: 232px;
+    margin-bottom: 32px;
+
+
+
+}
+
+.socil-item {
+    border-radius: 40px;
+    width: 40px;
+    height: 40px;
+    background: #4d5ae5;
+}
+
+.social-icons {
+    color: #f4f4fd;
+
+}
+
+.socil-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 16px;
+    /* background: #4d5ae5;*/
+/* border-radius: 40px;
+    width: 40px;
+    height: 40px;
+    background-color: #4d5ae5;
+    padding: 12px;
+    transition: 250ms ease;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-property: background-color;}*/
+
+
+/*.socil-link:hover,
+.socil-link:focus {
+    border-radius: 40px;
+    width: 40px;
+    height: 40px;
+    background-color: #31D0AA;
+}*/
+/* 1. ДОДАЄМО: Батьківський контейнер для вирівнювання блоків у ряд */
+.footer-container {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: row;
+
+    /* Вирівнює блоки по верхньому краю */
+}
+
+.footer-bg {
+    background: #2e2f42;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+/* Керує фіксованим горизонтальним проміжком (120px) від соцмереж */
+.wrap-logo {
+    margin-right: 120px;
+}
+
+.logo-dw {
+    color: #f4f4fd;
+}
+
+.footer-txt {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #f4f4fd;
+    padding-top: 16px;
+    width: 264px;
+    max-width: 264px;
+}
+
+/* ЗМІНЕНО: Тепер блок у нормальному потоці Flexbox */
+.wrap-social {
+    display: block;
+}
+
+.caption {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #ffffff;
+    margin-bottom: 16px;
+}
+
+.foot-social-list {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: row;
+    gap: 16px;
+    width: 232px;
+    /* margin-bottom прибрано, щоб не було зайвого відступу знизу у футері */
+}
+
+.socil-item {
+    border-radius: 50%;
+
+    width: 40px;
+    height: 40px;
+    background: #4d5ae5;
+}
+
+.social-icons {
+    color: #f4f4fd;
+}
+
+.socil-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 16px;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    background-color: #4d5ae5;
+    padding: 12px;
+
+    /*  ОПТИМІЗОВАНО: плавна анімація лише для background-color */
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* ОПТИМІЗОВАНО: прибрано дублювання розмірів та радіусів */
+.socil-link:hover,
+.socil-link:focus {
+    background-color: #31D0AA;
+}
