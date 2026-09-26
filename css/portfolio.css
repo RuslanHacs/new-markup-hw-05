@@ -1,18 +1,13 @@
-.art {
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-    color: #2e2f42;
+/*заголовки у portfolio h3 співпадають з team*/
+/*ререносимо у загальні стилі common.css*/
+/*назвемо caption-txt*/
+.portfolio-caption {
+
     padding-bottom: 4px;
 }
 
-.velu {
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #434455;
+.portfolio-txt {
+    /*font наслідується  з body*/
     padding-top: 4px;
 }
 

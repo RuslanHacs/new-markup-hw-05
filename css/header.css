@@ -63,7 +63,7 @@
 }
 
 
-.cn-link {
+.contact-link {
     padding-right: 0px;
     padding-bottom: 24px;
     padding-left: 0px;
@@ -74,8 +74,8 @@
     transition-property: color;
 }
 
-.cn-link:hover,
-.cn-link:focus {
+.contact-link:hover,
+.contact-link:focus {
     color: #404bbf;
 }
 
@@ -86,7 +86,7 @@
 
 }
 
-.page-list {
+.nav-list {
     display: flex;
     align-items: flex-start;
     justify-content: flex-start;
@@ -108,4 +108,4 @@
 
 
 
-.page-item {}
+.nav-item {}
